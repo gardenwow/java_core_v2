@@ -1,4 +1,4 @@
-public class ServiceStation implements CheckAuto {
+public class ServiceStation implements CheckVehicle {
     /*
     public void check(Auto car, Auto bicycle, Auto truck) {
         if (car != null) {
@@ -37,10 +37,10 @@ public class ServiceStation implements CheckAuto {
         truck.checkEngine();
         truck.checkTrailer();
     }
-    private void printCheck(Auto auto){
-            System.out.println("Обслуживаем " + auto.getModelName());
-            for (int i = 0; i < auto.getWheelsCount(); i++) {
-                auto.updateTyre();
+    private void printCheck(Vehicle vehicle){
+            System.out.println("Обслуживаем " + vehicle.getModelName());
+            for (int i = 0; i < vehicle.getWheelsCount(); i++) {
+                vehicle.updateTyre();
         }
     }
 }
