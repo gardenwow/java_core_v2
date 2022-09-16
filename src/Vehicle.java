@@ -1,4 +1,4 @@
-public class Auto implements Methods{
+public class Vehicle implements Methods{
     private String modelName;
     private int wheelsCount;
 
