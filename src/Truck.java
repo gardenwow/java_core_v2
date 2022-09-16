@@ -1,4 +1,4 @@
-public class Truck extends Auto {
+public class Truck extends Vehicle {
 
   @Override
     public void updateTyre() {

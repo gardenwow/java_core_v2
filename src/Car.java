@@ -1,4 +1,4 @@
-public class Car extends Auto {
+public class Car extends Vehicle {
 
 
 @Override
